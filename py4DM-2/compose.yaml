@@ -1,0 +1,14 @@
+name: pdm2
+
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.20.0
+    ports:
+      # changed from default for VM port forwarding
+      - "8080:6333"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    mem_limit: 1g
+
+volumes:
+  qdrant_storage:

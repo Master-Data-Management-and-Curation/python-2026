@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdm2"
+version = "0.1.0"
+description = "Python for Data Management II - course code (MDMC 2026-27)"
+requires-python = ">=3.10"
+dependencies = [
+  "qdrant-client==1.20.0",
+  "datasets==5.2.0",
+  "openai>=1.40",
+  "pyarrow>=17",
+  "pillow>=10",
+  "numpy>=1.26,<2.4",
+  "requests>=2.32",
+  "python-dotenv>=1.0",
+]
+
+[tool.setuptools]
+packages = ["sem"]
