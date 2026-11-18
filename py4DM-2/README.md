@@ -7,8 +7,7 @@ Python workflows to manage scientific data through vector search, RAG and model 
 |---|---|---|
 | 1 · Vector databases and semantic retrieval | `s1/` | a Qdrant collection of SEM images |
 | 2 · RAG from scratch | `s2/` | retrieval + LLM, no framework |
-| 3 · Model serving  | `s3/` | _ |
-| 4 · Model serving lab | `s4/` | a classifier behind `POST /predict` |
+| 3 · Model serving  | `s3/` |  a classifier behind `POST /predict` |
 
 Each practice session folder has a `README.md` with the exercises, starter files with `# TODO` stubs, and a `solution/`.
 
@@ -28,3 +27,5 @@ SEM images from the CNR-IOM corpus from which the NFFA-EUROPE SEM dataset was pu
 DOI 10.23728/b2share.19cc2afd23e34b92b36a1dfd0113a89f). 
 
 Course subset: 1234 images in 10 categories, distributed in up to 125 images per category. Images are 512 × 512 crops of the frame at full resolution.
+
+Published on Hugging Face: <https://huggingface.co/datasets/RitAreaSciencePark/sem-mdmc-2026>
