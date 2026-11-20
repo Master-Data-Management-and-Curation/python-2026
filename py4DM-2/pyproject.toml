@@ -16,6 +16,9 @@ dependencies = [
   "numpy>=1.26,<2.4",
   "requests>=2.32",
   "python-dotenv>=1.0",
+  "bentoml>=1.4",
+  "transformers>=4.40",
+  "torch>=2.2",
 ]
 
 [tool.setuptools]
