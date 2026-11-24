@@ -23,7 +23,7 @@ from sem.config import COLLECTION
 from sem.data import load_split
 from sem.qdrant import get_client
 
-API_URL = "http://localhost:3000"
+API_URL = "http://localhost:8081"
 TRAIN_SPLIT = "index"       # the split loaded into Qdrant
 
 

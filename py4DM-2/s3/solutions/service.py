@@ -1,7 +1,7 @@
 """Session 3 - BentoML service: send an SEM image, get its category back.
  
 Run (from s3/):  bentoml serve
-Test: curl -X POST http://localhost:3000/classify -F image=@some_sem_image.png
+Test: curl -X POST http://localhost:8081/classify -F image=@some_sem_image.png
  
 The classifier is the ViT t0m-R/vit-sem-classification (ViT-B/32 fine-tuned on SEM
 images, 10 categories), loaded once at startup. No Qdrant and no embedding service
